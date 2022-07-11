@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scriptHelper.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/4d129299c7.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Forum&family=Ultra&display=swap" rel="stylesheet">
+
+  <div class="title">
+    <title>Roommate App</title>
+    <h1 class="display-1 page-header text-center">Roomies</h1>
+  </div>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-4 d-flex flex-column my-5">
+
+        <div class="d-inline-flex">
+          <h4 class="fw-bold">Number of Roommates</h4>
+          <div class="ms-auto">
+            <input name="rmNum" type="text" placeholder="Number of roommates" class="ml-auto form-control">
+          </div>
+        </div>
+
+        <div class="my-3 d-inline-flex">
+          <h4 class="fw-bold">Monthly Rent</h4>
+          <div class="ms-auto">
+            <input name="rent" type="text" placeholder="Enter monthly rent" class="ml-auto form-control">
+          </div>
+        </div>
+
+        <h2 class="mt-5"><em>Monthly Utilities</em></h2>
+
+        <div class="my-2 d-inline-flex">
+          <h4 class="fw-bold">Electric</h4>
+          <div class="ms-auto">
+            <input name="inputElect" type="text" placeholder="cost of utilitity" class="form-control">
+          </div>
+        </div>
+
+        <div class="my-2 d-inline-flex">
+          <h4 class="fw-bold">Water</h4>
+          <div class="ms-auto">
+            <input name="inputWater" type="text" placeholder="cost of utilitity" class="form-control">
+          </div>
+
+        </div>
+
+        <div class="my-2 d-inline-flex">
+          <h4 class="fw-bold">Gas</h4>
+          <div class="ms-auto">
+            <input name="inputGas" type="text" placeholder="cost of utilitity" class="form-control">
+          </div>
+
+        </div>
+
+        <div class="my-2 d-inline-flex">
+          <h4 class="fw-bold">WIFI</h4>
+          <div class="ms-auto">
+            <input name="inputWifi" type="text" placeholder="cost of utilitity" class="form-control">
+          </div>
+
+        </div>
+
+        <div class="my-2 d-inline-flex">
+          <h4 class="fw-bold">Miscellaneous</h4>
+          <div class="ms-auto">
+            <input name="inputMisc" type="text" placeholder="cost of utilitity" class="form-control">
+          </div>
+        </div>
+      </div>
+      <!-- <button id="add">
+    Add Option
+  </button> -->
+
+      <div class="col-4 d-flex flex-column justify-content-center text-center justify-content-center">
+        <div class="btn">
+          <button id="calculate" type="submit" value="Gross Expenses" class="btn btn-outline-dark">Calculate</button>
+        </div>
+      </div>
+
+      <div class="col-4 d-flex flex-column justify-content-center">
+
+        <div class="row">
+          <div class="col-6">
+            <h2>Total Expenses:</h2>
+          </div>
+          <div class="col-6">
+            <h3 id="totalCost">$0.00</h3>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-6">
+            <h2>Total Expense Per Person:</h2>
+          </div>
+          <div class="col-6">
+            <h3 id="totalCostPerPerson">$0.00</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+</html>

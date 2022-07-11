@@ -1,0 +1,18 @@
+html, body {
+    height:100%;
+  }
+
+.container{
+  font-family: 'Forum', cursive;
+  }
+
+.title{
+    font-family: 'Ultra', serif;
+  }
+
+@media all and (max-width:30em) {
+        .calcuBtn{
+        display:block;
+        margin:0.4em auto;
+    }
+         }
